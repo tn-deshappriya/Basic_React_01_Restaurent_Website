@@ -1,9 +1,10 @@
 import './index.css';
+import Navbar from './components/Navbar/Navbar';
 const App = () => {
   return (
-    <div>
-      <h1 className="bg-red-400">Welcome to Foodie Zone</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   )
 }
 
